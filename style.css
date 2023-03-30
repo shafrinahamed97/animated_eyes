@@ -20,3 +20,15 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.face::before{
+    content: '';
+    position: absolute;
+    top: 180px;
+    width: 150px;
+    height: 70px;
+    background:  #b57700;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+
+}
